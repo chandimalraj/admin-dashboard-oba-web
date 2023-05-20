@@ -1,0 +1,27 @@
+.add-admin-btn{
+    border: none;
+    background: rgba(22, 183, 19, 1);
+    color: white;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+.plus-txt{
+    font-size: 30px;
+}
+
+.admin-header{
+    color: white;
+    background: #002F5A;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.admin-footer{
+    background: #002F5A;
+    border-radius: 0px 0px 15px 15px;
+}

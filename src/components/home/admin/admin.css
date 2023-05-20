@@ -1,0 +1,36 @@
+.admin-item{
+     
+    background:rgba(149, 149, 149, 0.2); ;
+}
+.admin-item-name{
+    font-family: 'Manrope';
+    font-size: 15px;
+    font-weight: 600;
+}
+.admin-item-member{
+    font-family: 'Manrope';
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(128, 129, 145, 1);
+}
+
+.admin-view-btn{
+    border: none;
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 11px;
+    background: rgba(0, 47, 90, 1);
+    border-radius: 7px;
+    color: white;
+}
+
+.admin-remove-btn{
+    border: none;
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 11px;
+    background: rgba(220, 53, 69, 0.26);
+    border-radius: 7px;
+    color: white
+}
+

@@ -1,0 +1,19 @@
+.user-aprove-btn{
+    border: none;
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 11px;
+    background: rgba(22, 183, 19, 1);
+    border-radius: 7px;
+    color: white;
+}
+
+.user-edit-btn{
+    border: none;
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 11px;
+    background: rgba(48, 136, 217, 1);
+    border-radius: 7px;
+    color: white;
+}

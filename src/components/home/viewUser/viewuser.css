@@ -1,0 +1,141 @@
+.user-view-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
+
+.link-input-view {
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 40px;
+  width: 200px;
+  padding-left: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+  background: rgba(247, 247, 247, 0.5);
+}
+
+.link-input-view:focus {
+  outline: none;
+}
+
+.img-container-link {
+  background: rgba(69, 69, 69, 1);
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+.lives-in {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  background: rgba(247, 247, 247, 0.5);
+}
+
+.link-container {
+  background: rgba(247, 247, 247, 0.5);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.view-user-input {
+  padding-left: 10px;
+  border: none;
+  width: 300px;
+  height: 40px;
+  background: rgba(247, 247, 247, 0.5);
+  border-radius: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.lives-in-address {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  /* background: rgba(247, 247, 247, 0.5); */
+}
+.member-id-con {
+  border-radius: 11px;
+  background: rgba(185, 221, 255, 1);
+  width: 320px;
+  height: 40px;
+}
+.mobile {
+  border-radius: 10px;
+  background: rgba(247, 247, 247, 1);
+  width: 380px;
+  height: 40px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+.email {
+  border-radius: 10px;
+  background: rgba(185, 221, 255, 1);
+  width: 380px;
+  height: 40px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+
+.email:hover{
+  background: rgb(138, 181, 223);
+}
+
+.mail-img{
+    width: 30px;
+    height: 20px;
+}
+.footer-btn-close{
+    margin-top: 54px;  
+    width: 144px;
+    height: 40px;
+    border: none;
+    background: rgba(48, 136, 217, 1);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+}
+
+.footer-btn-close:hover{
+  background: rgb(20, 95, 165);
+}
+
+.ol-year-input{
+  border: none;
+  width: 320px;
+  height: 40px;
+  background: #b9ddff;
+  border-radius: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+@media only screen and (max-width: 1450px) {
+
+  .link-input-view{
+    width: 140px;
+  }
+  .view-user-input{
+    width: 240px;
+  }
+
+}

@@ -1,0 +1,168 @@
+.login {
+  height: 100vh;
+  background: rgb(218, 237, 255);
+}
+
+.lg-header {
+  background: rgba(185, 221, 255, 1);
+}
+
+.lg-header-txt {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.lg-body-section {
+  position: relative;
+  background: rgb(218, 237, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quarter-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  z-index: 10;
+  background: linear-gradient(213.55deg, #0057a7 15.65%, #0073dd 55%);
+}
+
+.quarter-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: 180px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 100%;
+  
+    background: linear-gradient(213.55deg, #0057a7 15.65%, #0073dd 55%);
+  }
+
+
+.log-container {
+  width: 450px;
+  height: auto;
+  background: rgba(255, 255, 255, 1);
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  
+}
+
+.log-heading {
+  font-family: "Manrope";
+  font-weight: 800;
+  color:rgba(3, 1, 76, 1);
+  
+}
+
+.small-txt{
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.user-img{
+    width:15px;
+    /* height: 15px; */
+    
+}
+.log-email-container{
+    width: 300px ;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    opacity: 0.7;
+     border: 0.8327px solid #03014C;
+    border-radius: 8.327px;
+    background: transparent;
+   
+}
+
+.log-email-input{
+    width: 210px;
+    border: none;
+    padding-left: 20px;
+    display: flex;
+    line-height: 40px;
+    border-radius: 8.327px;
+    font-family: 'Manrope' ;
+    font-size: 13px;
+    font-weight: 600;
+    
+    
+}
+
+.log-email-input::placeholder{
+    font-family: 'Manrope' ;
+    font-size: 13px;
+    vertical-align: middle;
+    color:black;
+    
+}
+
+.log-email-input:focus{
+    outline: none;
+   
+}
+
+.log-password-input{
+    border: none;
+    padding-left: 20px;
+    display: flex;
+    line-height: 40px;
+    border-radius: 8.327px;
+    font-family: 'Manrope' ;
+    font-size: 15px;
+    color: #03014C;
+}
+
+.eye-img{
+    width: 20px;
+}
+
+.log-password-input::placeholder{
+    font-family: 'Manrope' ;
+    font-size: 13px;
+    vertical-align: middle;
+    color:black;
+    
+}
+
+.log-passowrd-input:focus{
+    outline: none;
+}
+
+.remember{
+    width: 300px ;
+}
+
+.remember-txt{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.log-btn{
+    width:300px;
+    height:50px;
+    border: 0.8327px solid #03014C;
+    border-radius: 8.327px;
+    font-family: 'Manrope';
+    font-size: 13px;
+    font-weight: 600;
+    color: aliceblue;
+    border: none;
+    background:#002F5A ;
+}
+

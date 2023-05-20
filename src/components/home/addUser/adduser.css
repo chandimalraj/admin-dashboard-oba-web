@@ -1,0 +1,305 @@
+.add-user-col {
+  width: 33%;
+}
+.add-user-txt {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+.add-user-input {
+  padding-left: 10px;
+  border: none;
+  width: 300px;
+  height: 40px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.add-user-input:focus {
+  outline: none;
+}
+.dob-date {
+  border: none;
+  background: #f7f7f7;
+  border-radius: 10px;
+  width: 134px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image:
+  linear-gradient(45deg, transparent 50%, gray 50%),
+  linear-gradient(135deg, gray 50%, transparent 50%),
+  linear-gradient(to right, #F7F7F7, #ffffff);
+background-position:
+  calc(100% - 20px) calc(1em + 2px),
+  calc(100% - 15px) calc(1em + 2px),
+  calc(100% - 2.5em) 0.5em;
+background-size:
+  5px 5px,
+  5px 5px,
+  1px 1.5em;
+background-repeat: no-repeat;
+}
+
+.dob-year {
+  border: none;
+  background: #f7f7f7;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image:
+  linear-gradient(45deg, transparent 50%, gray 50%),
+  linear-gradient(135deg, gray 50%, transparent 50%),
+  linear-gradient(to right, #F7F7F7, #ffffff);
+background-position:
+  calc(100% - 19px) calc(1em + 2px),
+  calc(100% - 15px) calc(1em + 2px),
+  calc(100% - 2.5em) 0.5em;
+background-size:
+  5px 5px,
+  5px 5px,
+  1px 1.5em;
+background-repeat: no-repeat;
+}
+.dob-month {
+  border: none;
+  width: 300px;
+  height: 40px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image:
+  linear-gradient(45deg, transparent 50%, gray 50%),
+  linear-gradient(135deg, gray 50%, transparent 50%),
+  linear-gradient(to right, #F7F7F7, #ffffff);
+background-position:
+  calc(100% - 20px) calc(1em + 2px),
+  calc(100% - 15px) calc(1em + 2px),
+  calc(100% - 2.5em) 0.5em;
+background-size:
+  5px 5px,
+  5px 5px,
+  1px 1.5em;
+background-repeat: no-repeat;
+}
+.dob-year:focus {
+  outline: none;
+}
+.dob-month:focus {
+  outline: none;
+}
+.dob-date:focus {
+  outline: none;
+}
+.add-user-section-heading {
+  font-family: "poppins";
+  font-weight: 400;
+  color: rgba(0, 47, 90, 1);
+}
+.img-container {
+  background: #002f5a;
+  border-radius: 10px;
+}
+.web-img {
+  width: 20px;
+  height: 20px;
+}
+.link-input {
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 40px;
+  width: 230px;
+  padding-left: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+.link-input:focus {
+  outline: none;
+}
+.link-input::placeholder {
+}
+
+.scl-footer {
+  background: #00274a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.scl-footer-details {
+  background: #002f5a;
+}
+
+.footer-section {
+  width: 33%;
+}
+.footer-section-half {
+  width: 50%;
+}
+
+.footer-txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.footer-input {
+  border: none;
+  width: 144px;
+  height: 40px;
+  background: #b9ddff;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image:
+  linear-gradient(45deg, transparent 50%, gray 50%),
+  linear-gradient(135deg, gray 50%, transparent 50%),
+  linear-gradient(to right, #b9ddff, #b9ddff);
+background-position:
+  calc(100% - 20px) calc(1em + 2px),
+  calc(100% - 15px) calc(1em + 2px),
+  calc(100% - 2.5em) 0.5em;
+background-size:
+  5px 5px,
+  5px 5px,
+  1px 1.5em;
+background-repeat: no-repeat;
+}
+
+.footer-input-cls {
+  border: none;
+  width: 144px;
+  height: 40px;
+  background: #b9ddff;
+  border-radius: 10px;
+}
+
+.footer-input-cls:focus{
+  outline: none;
+}
+
+.footer-input:focus {
+  outline: none;
+}
+
+.ol-year {
+  border: none;
+  width: 320px;
+  height: 40px;
+  background: #b9ddff;
+  border-radius: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image:
+  linear-gradient(45deg, transparent 50%, gray 50%),
+  linear-gradient(135deg, gray 50%, transparent 50%),
+  linear-gradient(to right, #b9ddff, #b9ddff);
+background-position:
+  calc(100% - 20px) calc(1em + 2px),
+  calc(100% - 15px) calc(1em + 2px),
+  calc(100% - 2.5em) 0.5em;
+background-size:
+  5px 5px,
+  5px 5px,
+  1px 1.5em;
+background-repeat: no-repeat;
+}
+
+.ol-year:focus {
+  outline: none;
+}
+
+.footer-btn {
+  width: 144px;
+  height: 40px;
+  border: none;
+  background: #b9ddff;
+  border-radius: 10px;
+}
+
+.footer-btn-active{
+  width: 144px;
+  height: 40px;
+  border: none;
+  background: rgba(48, 136, 217, 1);
+  border-radius: 10px;
+  color: white;
+}
+
+.footer-btn-submit {
+  margin-top: 54px;  
+  width: 144px;
+  height: 40px;
+  border: none;
+  background: rgba(48, 136, 217, 1);
+  border-radius: 10px;
+  color: white;
+}
+.oba-membership {
+  border: none;
+  width: 320px;
+  height: 40px;
+  background: #b9ddff;
+  border-radius: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.oba-membership:focus{
+  outline: none;
+}
+
+@media only screen and (max-width: 1340px) {
+  .add-user-input {
+    width: 250px;
+  }
+  .dob-month {
+    width: 250px;
+  }
+  .link-input{
+    width: 180px;
+  }
+  .ol-year{
+    width: 280px;
+  }
+  .ol-year-input{
+    width: 280px;
+  }
+  .footer-input{
+    width: 120px;
+  }
+  .footer-input-cls{
+    width: 120px;
+  }
+  .oba-membership{
+    width: 280px;
+  }
+}

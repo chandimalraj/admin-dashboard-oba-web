@@ -1,0 +1,93 @@
+.admin-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 17px;
+}
+.admin-name {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 18px;
+}
+.admin-txt {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(128, 129, 145, 1);
+}
+
+.admin-settings-name {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 15px;
+}
+.admin-settings-input {
+  font-family: "poppins";
+  font-size: 12px;
+  width: 240px;
+  height: 30px;
+  border: none;
+  background: #66829c;
+  border-radius: 7px;
+  color: beige;
+}
+.admin-settings-btn {
+  font-family: "Manrope";
+  font-size: 12px;
+  border: none;
+  background: #3088d9;
+  border-radius: 7px;
+  color: white;
+  width: 120px;
+}
+
+.pop-up {
+  z-index: 12;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .25);;
+}
+
+.pop-up-container {
+  min-width: 300px;
+  border-radius: 15px;
+}
+
+.pop-up-heading {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: #002f5a;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+
+.pop-up-close {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.admin-settings-input::placeholder {
+  color: rgb(230, 234, 238);
+}
+.admin-settings-input:focus {
+  outline: none;
+}
+
+.admin-settings-container {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 15px 15px;
+}
